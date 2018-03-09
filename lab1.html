@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 1</title>
+    <link rel="stylesheet" type="text/css" href="lab1.css" />
+  </head>
+  <body>
+  <h1>Lab 1 - Login Page</h1>
+  <form action="#" method="post" id="loginform" name="login_form">
+    <fieldset>
+      <legend>User Authentication</legend>
+      <!-- USERNAME -->
+      <div><label for="loginform__uname">Username: </label>
+      <input type="text" id="loginform__uname" name="loginform__username" /><span id="loginform__username_err" class="loginform__err"></span></div>
+      
+      <!-- PASSWORD -->
+      <div><label for="loginform__userpass">Password: </label>
+      <input type="password" id="loginform__userpass" name="loginform__password" /><span id="loginform__password_err" class="loginform__err"></span></div>
+      
+      <!-- SUBMIT BTN -->
+      <div><input type="submit" value="Login" name="loginform__submit"></div>
+    </fieldset>
+  </form>
+  <div id="logindetails">
+    <p id="logindetails__user"></p>
+    <p id="logindetails__pass"></p>
+  </div>
+  
+  <script src="lab1.js"></script>
+  </body>
+</html>
