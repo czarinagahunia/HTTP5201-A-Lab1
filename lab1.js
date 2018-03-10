@@ -18,7 +18,7 @@ function pageReady() {
             userName.style.background = "white";
             userNameErr.innerHTML = "";
         }
-        if (userPass.value === "" || userName.value === null) {
+        if (userPass.value === "" || userPass.value === null) {
             userPass.style.background = "red";
             userPassErr.innerHTML = "Please input password.";
             userPass.focus();
